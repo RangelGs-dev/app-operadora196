@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="logo">
-      <img alt="Vue logo" src="../assets/logo.png" />
+      <img alt="Vue logo" src="../assets/layout_set_logo.png" />
     </div>
     <nav>
       <ul>
@@ -29,23 +29,25 @@ export default {
 
 <style scoped>
 .header {
+  display: flex;
+  justify-content: space-between;
   background-color: #f0f0f0;
   padding: 20px;
 }
 
-.logo {
-  float: left;
-}
-
 .logo img {
-  height: 50px;
+  max-width: 150px;
+  max-height: 65px;
 }
 
 nav {
-  float: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav ul {
+  display: inline-block;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -57,7 +59,8 @@ nav li {
 }
 
 nav a {
+  font-weight: bold;
   text-decoration: none;
-  color: #333;
+  color: #808080;
 }
 </style>
