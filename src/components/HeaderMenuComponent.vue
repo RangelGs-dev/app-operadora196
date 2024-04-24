@@ -52,6 +52,7 @@ nav {
   align-items: center;
   padding: 10px 20px;
   background: #282A35;
+  border-top: 4px solid #f4791f;
 }
 
 nav ul {

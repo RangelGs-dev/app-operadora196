@@ -107,7 +107,7 @@ export default {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  /* width: auto; */
+  width: auto;
   margin-top: -22px;
   padding: 16px;
   color: white;
