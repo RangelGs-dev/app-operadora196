@@ -19,8 +19,9 @@ export default {
     return {
       links: [
         { href: "/", label: "Home" },
+        { href: "article", label: "Artigo" },
+        { href: "/feed", label: "Feed" },
         { href: "/about", label: "Sobre" },
-        { href: "/contact", label: "Contato" },
       ],
     };
   },
@@ -33,6 +34,7 @@ export default {
   justify-content: space-between;
   background-color: #f0f0f0;
   padding: 20px;
+  font-family: "Inter var experimental", "Inter var", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 .logo img {

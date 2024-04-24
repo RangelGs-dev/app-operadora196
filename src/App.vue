@@ -1,19 +1,21 @@
 <template>
   <div id="app">
-    <HeaderMenu/>
+    <HeaderMenuComponent />
+    <CarouselComponent />
   </div>
 </template>
 
 <script>
-import HeaderMenu from './components/HeaderMenu.vue';
-
+import CarouselComponent from "./components/CarouselComponent.vue";
+import HeaderMenuComponent from "./components/HeaderMenuComponent.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HeaderMenu,
-  }
-}
+    HeaderMenuComponent,
+    CarouselComponent,
+  },
+};
 </script>
 
 <style>
@@ -27,6 +29,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-
+  max-width: 800px;
+  margin: 0 auto;
 }
 </style>
