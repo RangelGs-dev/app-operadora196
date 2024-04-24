@@ -91,10 +91,9 @@ export default {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 800px;
+  max-width: 900px;
   position: relative;
   margin: auto;
-  border-top-color: #4eb;
 }
 
 /* Hide the images by default */

@@ -31,10 +31,14 @@ export default {
 <style scoped>
 .header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  /* justify-content: space-between; */
   background-color: #f0f0f0;
-  padding: 20px;
   font-family: "Inter var experimental", "Inter var", Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo {
+  padding: 10px 20px;
 }
 
 .logo img {
@@ -46,6 +50,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 20px;
+  background: #282A35;
 }
 
 nav ul {
@@ -63,6 +69,6 @@ nav li {
 nav a {
   font-weight: bold;
   text-decoration: none;
-  color: #808080;
+  color: #f0f0f0;
 }
 </style>
